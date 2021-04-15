@@ -1,6 +1,8 @@
 # freelancer-mastermind
 This is an implementation of the mastermind game in php. I found this project on freelancer.com.
 Purpose: The purpose of this project is to assist me in learning the fundamentals of php and to give me some basic freelancing experience.
+Requirements:
+php 7.1 or later.
 Specifications:
 1. Php will choose a sequence of 4 unique digits. The sequence is intended to be chosen randomly and will not be known to the user in advance.
 2. The user will then be given 10 attempts to guess the sequence.
@@ -30,3 +32,5 @@ a. Retrieve the array of correct positions resulting from the application of rul
 b. Make a list of the digits of both the answer and sequence digits at the positions for which the correct answer array is false.
 c. For each of the digits 0 through 9, count the number of instances of that digit in the lists created in the prior step. The number of misplaced digits is the smaller of the number of instances of this digit in the answer list and the number of instances in the sequence list.
 d. Note that the sum of correct digits, misplaced digits, and incorrect digits should always be 4. Therefore, any digits that are not counted as correct or misplaced are incorrect.
+Running the program
+Navigate to the directory in which you have cloned this repository. Then, type php main.php.
